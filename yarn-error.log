@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn build:css
+
+PATH: 
+  /home/fikrisuheri/Documents/Pemrograman/TAILWIND CSS/PasarTemplate/node_modules/.bin:/tmp/yarn--1599106707977-0.6243231521663488:/home/fikrisuheri/Documents/Pemrograman/TAILWIND CSS/PasarTemplate/node_modules/.bin:/home/fikrisuheri/.config/yarn/link/node_modules/.bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/tmp/yarn--1599106706103-0.19246514410014037:/home/fikrisuheri/Documents/Pemrograman/TAILWIND CSS/PasarTemplate/node_modules/.bin:/home/fikrisuheri/.config/yarn/link/node_modules/.bin:/home/fikrisuheri/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fikrisuheri/Android/Sdk/emulator:/home/fikrisuheri/Android/Sdk/tools:/home/fikrisuheri/Android/Sdk/tools/bin:/home/fikrisuheri/Android/Sdk/platform-tools:/home/fikrisuheri/Android/Sdk/emulator:/home/fikrisuheri/Android/Sdk/tools:/home/fikrisuheri/Android/Sdk/tools/bin:/home/fikrisuheri/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EIO: i/o error, write
+      at writeSync (fs.js:573:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)
+      at doWrite (_stream_writable.js:415:12)
+      at writeOrBuffer (_stream_writable.js:399:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:299:11)
+      at ConsoleReporter._log (/usr/local/lib/node_modules/yarn/lib/cli.js:96769:17)
+      at ConsoleReporter.log (/usr/local/lib/node_modules/yarn/lib/cli.js:96757:10)
+      at ConsoleReporter.command (/usr/local/lib/node_modules/yarn/lib/cli.js:96786:10)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:34545:16
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+      "name": "suhericode_pasar",
+      "version": "1.0.0",
+      "description": "Template Pasar",
+      "main": "index.js",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "build:css": "tailwindcss build src/style.css -o dist/style.css",
+          "watch:tailwind": "nodemon --watch src/style.css -x \"yarn build:css\"",
+          "serve": "yarn watch:tailwind"
+      },
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+          "@ant-design/icons": "^4.2.2",
+          "nodemon": "^2.0.4",
+          "tailwindcss": "^1.7.6"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

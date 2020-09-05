@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <meta name="theme-color" content="#9f7aea" />
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('img/bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background-color: #fafafa !important;
+            width: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="w-full md:w-1/3 bg-white shadow-2xl mx-auto">
+            <div class="w-full h-full">
+                <section id="content" class="mb-20">
+                    <nav class="w-full bg-purple-500 py-3 px-2">
+                        <img src="img/logo-white.png" alt="" class="w-24" srcset="">
+                    </nav>
+                    <div id="image-slider">
+                        <div class="w-full">
+                            <div class="swiper-container swiper-1 w-full h-52">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <img src="img/banner.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/banner2.png">
+                                    </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <h1 class="font-bold text-gray-800 text-lg subpixel-antialiased">Mau belanja apa hari ini ?</h1>
+                    </div>
+                    <div class="">
+                        <div class="swiper-container swiper-3">
+                            <div class="swiper-wrapper py-3 mb-5">
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                                <div class="card-category swiper-slide">
+                                    <img src="img/sayuran.svg" class="" alt="" srcset="">
+                                    <span class="text-xs mt-1">Sayuran</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <div class="product">
+                        <div class="p-3 flex justify-between align-middle">
+                            <h1 class="font-bold text-gray-800 text-lg subpixel-antialiased">Daging Ayam</h1>
+                            <a href="#" class="font-semibold text-purple-500 text-sm subpixel-antialiased">Lihat Semua</a>
+                        </div>
+                        <div class="p-3">
+                            <div class="w-full">
+                                <div class="swiper-container swiper-2 w-full h-52">
+                                    <div class="swiper-wrapper py-2">
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="p-3 flex justify-between align-middle">
+                            <h1 class="font-bold text-gray-800 text-lg subpixel-antialiased">Daging Ayam</h1>
+                            <a href="#" class="font-semibold text-purple-500 text-sm subpixel-antialiased">Lihat Semua</a>
+                        </div>
+                        <div class="p-3">
+                            <div class="w-full">
+                                <div class="swiper-container swiper-2 w-full h-52">
+                                    <div class="swiper-wrapper py-2">
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="p-3 flex justify-between align-middle">
+                            <h1 class="font-bold text-gray-800 text-lg subpixel-antialiased">Daging Ayam</h1>
+                            <a href="#" class="font-semibold text-purple-500 text-sm subpixel-antialiased">Lihat Semua</a>
+                        </div>
+                        <div class="p-3">
+                            <div class="w-full">
+                                <div class="swiper-container swiper-2 w-full h-52">
+                                    <div class="swiper-wrapper py-2">
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="p-3 flex justify-between align-middle">
+                            <h1 class="font-bold text-gray-800 text-lg subpixel-antialiased">Daging Ayam</h1>
+                            <a href="#" class="font-semibold text-purple-500 text-sm subpixel-antialiased">Lihat Semua</a>
+                        </div>
+                        <div class="p-3">
+                            <div class="w-full">
+                                <div class="swiper-container swiper-2 w-full h-52">
+                                    <div class="swiper-wrapper py-2">
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide shadow rounded-lg" onclick="windo">
+                                            <img src="img/Sop.jpg" class="rounded-t-lg">
+                                            <div class="p-2 flex flex-col">
+                                                <h1 class="font-sans text-gray-800 text-sm truncate">Paket Sop Ngeunahhhhhh Mantappppppp</h1>
+                                                <h1 class="font-semibold text-sm text-purple-500">Rp 15,000</h1>
+                                                <a href="detail-product.html" class="btn-purple btn-purple-sm mb-2 mt-4 text-sm">Beli</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="bottom-navigation" class="bottom-nav">
+                    <div class="flex">
+                        <div class="w-full md:w-1/3 mx-auto bg-white ">
+                            <div id="tabs" class="bottom-nav-tab shadow-2xl">
+                                <a href="home.html" class="text-gray-600 focus:text-purple-500 hover:text-purple-500 bottom-nav-item active">
+                                    <ion-icon name="home-outline" class="text-2xl"></ion-icon>
+                                    <span class="tab tab-home block text-xs">Home</span>
+                                </a>
+
+                                <a href="#" class="text-gray-600 focus:text-purple-500 hover:text-purple-500 bottom-nav-item">
+                                    <ion-icon name="search-outline" class="text-2xl"></ion-icon>
+                                    <span class="tab tab-kategori block text-xs">Cari</span>
+                                </a>
+                                <a href="#" class="text-gray-600 focus:text-purple-500 hover:text-purple-500 bottom-nav-item">
+                                    <ion-icon name="heart-outline" class="text-2xl"></ion-icon>
+                                    <span class="tab tab-explore block text-xs">Favorit</span>
+                                </a>
+                                <a href="#" class="text-gray-600 focus:text-purple-500 hover:text-purple-500 bottom-nav-item">
+                                    <ion-icon name="help-outline" class="text-2xl"></ion-icon>
+                                    <sanpan class="tab tab-explore block text-xs">Bantuan</sanpan>
+                                </a>
+                                <a href="account.html" class="text-gray-600 focus:text-purple-500 hover:text-purple-500 bottom-nav-item">
+                                    <ion-icon name="person-outline" class="text-2xl"></ion-icon>
+                                    <span class="tab tab-whishlist block text-xs">Saya</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-2', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: 2,
+            spaceBetween: 20,
+        })
+
+        var mySwiper = new Swiper('.swiper-1', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 3000
+            },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+
+            autoplay: {
+                delay: 3000,
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+        })
+
+        var mySwiper = new Swiper('.swiper-3', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: 4,
+            slidesPerColumn: 2,
+            slidesPerColumnFill: 'row',
+        })
+    </script>
+</body>
+
+</html>

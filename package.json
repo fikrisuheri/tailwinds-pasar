@@ -1,0 +1,19 @@
+{
+    "name": "suhericode_pasar",
+    "version": "1.0.0",
+    "description": "Template Pasar",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:css": "tailwindcss build src/style.css -o dist/style.css",
+        "watch:tailwind": "nodemon --watch src/style.css -x \"yarn build:css\"",
+        "serve": "yarn watch:tailwind"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@ant-design/icons": "^4.2.2",
+        "nodemon": "^2.0.4",
+        "tailwindcss": "^1.7.6"
+    }
+}
